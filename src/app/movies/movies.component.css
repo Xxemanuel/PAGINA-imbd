@@ -2,6 +2,12 @@
 color: antiquewhite
 }
 
+.carousel-inner{
+    width: 250em;
+   
+   
+}
+
 .carousel-item-active {
 
     display:inline-flex ; 
@@ -10,14 +16,18 @@ color: antiquewhite
     flex-direction: row ;
     align-items: flex-start;
     border-radius: 10px;
+    margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
 }
 .card {
     width: 15rem;
     height: 35rem;
     background-color: rgb(22, 21, 21);
     color: white;
-    padding: 1px ;
-    margin: 3px ;
+    
+    margin-right: 20px ;
 
 }
 .btn-btn-primary{
@@ -56,6 +66,10 @@ color: antiquewhite
     text-decoration: none;
     font-size: 25px;
     color: white;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
    
     }
 
@@ -66,7 +80,12 @@ color: antiquewhite
 
 .sub-tittle {
     color: rgb(167, 163, 163);
-  
+    font-family: 'Roboto',sans-serif;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+
 }
 
 .pipe {
@@ -94,5 +113,75 @@ color: antiquewhite
     background-color: rgb(70, 66, 66);
 }
 
+.imgen-container {margin: 0px;
+}
+
+.seguimiento {
+    position: absolute; top: 0px;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(46, 41, 41, 0.5);
+    color: white;
+
+}
+.seguimiento:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.modal-content { background-color: rgb(22, 21, 21);
+ 
+    font-family: 'Roboto',sans-serif;
+
+}
 
 
+.modal-titulo {   color: rgb(250, 250, 25);
+margin: 138px;  
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.modal-pelicula { 
+    color: rgb(253, 246, 246);
+}
+
+.cerrar-boton {
+    color: white;
+    border: none;
+    background-color: rgba(46, 41, 41, 0.0);
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+
+}
+.cerrar-boton:hover {
+    background-color:rgb(255, 255, 255,0.5);
+}
+
+.puntuar-boton {
+    background-color: rgb(250, 250, 25);
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    margin: 138px;  
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 500px;
+    height: 50px;
+
+}
+.puntuar-boton:hover{background-color: rgb(190, 190, 15);}
+
+.puntuar-estrella {
+    color: rgb(34, 151, 219);
+    font-size: 25px;
+}
+
+.modal-footer {
+    margin: 30px;
+    
+}
+
+.puntaje-numero {
+    color:rgb(190, 190, 15) ;
+}

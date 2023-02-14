@@ -13,20 +13,25 @@ import { MoviesServiceService } from './movies-service.service';
 })
 export class MoviesComponent {
   movies: Movies[] = [{ image: "/assets/img/pelicula1.png", punctuation: 9.4, name: "Los Increibles 2", link: "https://www.youtube.com/watch?v=ssXatmC1dv0" },
-  { image: "/assets/img/pelicula2.jpg", punctuation: 9.4, name: "Buscando a NEMO", link: "https://www.youtube.com/watch?v=fUXvVHbHMyg" },
-  { image: "/assets/img/pelicula3.jpg", punctuation: 9.4, name: "Avatar 2", link: "https://www.youtube.com/watch?v=u0hxjdWG84k" },
-  { image: "/assets/img/pelicula4.jpg", punctuation: 9.4, name: "Avengers:End Game", link: "https://www.youtube.com/watch?v=KdL8ucqi1F8" },
-  { image: "imagen5.png", punctuation: 9.4, name: "pelicula5", link: "link pelicula5" },
-  { image: "imagen6.png", punctuation: 9.4, name: "pelicula6", link: "link pelicula6" },
-  { image: "imagen7.png", punctuation: 9.4, name: "pelicula7", link: "link pelicula7" },
-  { image: "imagen8.png", punctuation: 9.4, name: "pelicula8", link: "link pelicula8" },
-  { image: "imagen9.png", punctuation: 9.4, name: "pelicula9", link: "link pelicula9" },
-  { image: "imagen10.png", punctuation: 9.4, name: "pelicula10", link: "link pelicula10" },
-  { image: "imagen11.png", punctuation: 9.4, name: "pelicula11", link: "link pelicula11" },
-  { image: "imagen12.png", punctuation: 9.4, name: "pelicula12", link: "link pelicula12" },
-  { image: "imagen13.png", punctuation: 9.4, name: "pelicula13", link: "link pelicula13" },
-  { image: "imagen14.png", punctuation: 9.4, name: "pelicula14", link: "link pelicula14" },
-  { image: "imagen15.png", punctuation: 9.4, name: "pelicula15", link: "link pelicula15" }];
+  { image: "/assets/img/pelicula2.jpg", punctuation: 9, name: "Buscando a NEMO", link: "https://www.youtube.com/watch?v=fUXvVHbHMyg" },
+  { image: "/assets/img/pelicula3.jpg", punctuation: 7, name: "Avatar 2", link: "https://www.youtube.com/watch?v=u0hxjdWG84k" },
+  { image: "/assets/img/pelicula4.jpg", punctuation: 9.8, name: "Avengers:End Game", link: "https://www.youtube.com/watch?v=KdL8ucqi1F8" },
+  { image: "/assets/img/pelicula5.jpg", punctuation: 9.9, name: "El gato con botas 2", link:"https://www.youtube.com/watch?v=18v5EPO5ySs" },
+  { image: "/assets/img/pelicula6.jpg", punctuation: 9.4, name: "Iron man", link: "https://www.youtube.com/watch?v=8ugaeA-nMTc" },
+  { image: "/assets/img/pelicula7.jpg", punctuation: 9.4, name: "Aliens", link: "https://www.youtube.com/watch?v=oSeQQlaCZgU" },
+  { image: "/assets/img/pelicula8.jpg", punctuation: 9.4, name: "Shang Shi", link: "https://www.youtube.com/watch?v=BD77EOU8N3o" },
+  { image: "/assets/img/pelicula 9.jpg", punctuation: 9.4, name: "avatar", link: "https://www.youtube.com/watch?v=5PSNL1qE6VY" },
+  { image: "/assets/img/pelicula10.jpg", punctuation: 9.4, name: "Wolverine", link: "https://www.youtube.com/watch?v=zVErgcoIno8" },
+  { image: "/assets/img/pelicula11.jpg", punctuation: 9.4, name: "Aquaman", link: "https://www.youtube.com/watch?v=WDkg3h8PCVU" },
+  { image: "/assets/img/pelicula12.jpg", punctuation: 9.4, name: "Deadpool", link: "https://www.youtube.com/watch?v=0JnRdfiUMa8" },
+  { image: "/assets/img/pelicula13.jpg", punctuation: 9.4, name: "CivilWar", link: "https://www.youtube.com/watch?v=-ByYxIjmLsI" },
+  { image: "/assets/img/pelicula14.jpg", punctuation: 9.4, name: "It", link: "https://www.youtube.com/watch?v=_oBZ_zTz0Nw" },
+  { image: "/assets/img/pelicula15.jpg", punctuation: 9.4, name: "Gladiator", link: "https://www.youtube.com/watch?v=owK1qxDselE" }];
+
+  
+
+  
+  
 
 
   constructor(private moviesService: MoviesServiceService) { }

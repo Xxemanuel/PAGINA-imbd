@@ -1,7 +1,7 @@
 import { Movies } from './movies';
 
 export const MOVIES: Movies[] = [
-  { image: "src='./img/movies.png'", punctuation: 9.4, name: "pelicula1", link: "link pelicula1" },
+  { image: "imagen1.png'", punctuation: 9.4, name: "pelicula1", link: "link pelicula1" },
   { image: "imagen2.png", punctuation: 9.4, name: "pelicula2", link: "link pelicula2" },
   { image: "imagen3.png", punctuation: 9.4, name: "pelicula3", link: "link pelicula3" },
   { image: "imagen4.png", punctuation: 9.4, name: "pelicula4", link: "link pelicula4" },
